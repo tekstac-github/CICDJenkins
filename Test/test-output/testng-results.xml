@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5261" started-at="2024-01-25T09:01:22Z" finished-at="2024-01-25T09:01:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5261" started-at="2024-01-25T09:01:22Z" finished-at="2024-01-25T09:01:27Z">
+      <class name="Login">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Login@7bb11784]" name="setUp" is-config="true" duration-ms="3972" started-at="2024-01-25T14:31:22Z" finished-at="2024-01-25T14:31:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Login@7bb11784]" name="openBrowser" duration-ms="1278" started-at="2024-01-25T14:31:26Z" finished-at="2024-01-25T14:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Login@7bb11784]" name="tearDown" is-config="true" duration-ms="0" started-at="2024-01-25T14:31:27Z" finished-at="2024-01-25T14:31:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
