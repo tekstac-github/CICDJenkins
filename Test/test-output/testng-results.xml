@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5261" started-at="2024-01-25T09:01:22Z" finished-at="2024-01-25T09:01:27Z">
+  <suite name="Suite" duration-ms="8431" started-at="2024-01-25T17:06:13Z" finished-at="2024-01-25T17:06:22Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5261" started-at="2024-01-25T09:01:22Z" finished-at="2024-01-25T09:01:27Z">
+    <test name="Test" duration-ms="8431" started-at="2024-01-25T17:06:13Z" finished-at="2024-01-25T17:06:22Z">
       <class name="Login">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:Login@7bb11784]" name="setUp" is-config="true" duration-ms="3972" started-at="2024-01-25T14:31:22Z" finished-at="2024-01-25T14:31:26Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Login@7bb11784]" name="setUp" is-config="true" duration-ms="5524" started-at="2024-01-25T22:36:13Z" finished-at="2024-01-25T22:36:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Login@7bb11784]" name="openBrowser" duration-ms="1278" started-at="2024-01-25T14:31:26Z" finished-at="2024-01-25T14:31:27Z">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:Login@7bb11784]" name="openBrowser" duration-ms="2894" started-at="2024-01-25T22:36:19Z" finished-at="2024-01-25T22:36:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:Login@7bb11784]" name="tearDown" is-config="true" duration-ms="0" started-at="2024-01-25T14:31:27Z" finished-at="2024-01-25T14:31:27Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Login@7bb11784]" name="tearDown" is-config="true" duration-ms="0" started-at="2024-01-25T22:36:22Z" finished-at="2024-01-25T22:36:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
