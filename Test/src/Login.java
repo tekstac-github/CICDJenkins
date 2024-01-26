@@ -19,7 +19,7 @@ public class Login {
 
         // Initialize the FirefoxDriver
         driver = new FirefoxDriver();
-     //    driver = new ChromeDriver();
+     ////    driver = new ChromeDriver();
          
 
     }
