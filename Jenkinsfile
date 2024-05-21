@@ -7,9 +7,7 @@ pipeline {
                 script {
                     echo 'Running Selenium tests...'
                     bat '''
-                        echo Current Directory: %cd%
-                        dir
-                        set "projectLocation=D:\\Sasi\\Jenkins\\Test"
+                        set "projectLocation=Test"
                         echo Project Location: %projectLocation%
                         pushd "%projectLocation%"
                         echo Classpath: %projectLocation%\\bin;%projectLocation%\\lib\\*
