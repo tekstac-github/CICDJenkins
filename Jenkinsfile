@@ -7,12 +7,12 @@ pipeline {
                 script {
                     echo 'Running Selenium tests...'
                     sh '''#!/bin/bash
-                        set "projectLocation=Test"
-                        echo Project Location: %projectLocation%
-                        pushd "%projectLocation%"
-                        echo Classpath: %projectLocation%\\bin;%projectLocation%\\lib\\*
-                        set "classpath=%projectLocation%\\bin;%projectLocation%\\lib\\*"
-                        java -cp %classpath% org.testng.TestNG testng.xml
+                        set "projectLocation=/Test"
+                        echo Project Location: $projectLocation
+                        pushd "$projectLocation"
+                        echo Classpath: $projectLocation/bin;$projectLocation/lib/*
+                        set "classpath=$projectLocation/bin;$projectLocation/lib/*"
+                        java -cp $classpath org.testng.TestNG testng.xml
                     '''
                     echo 'Selenium tests completed.'
                 }
