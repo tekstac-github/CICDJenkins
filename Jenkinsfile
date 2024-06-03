@@ -6,7 +6,7 @@ pipeline {
             steps {
                 script {
                     echo 'Running Selenium tests...'
-                    bash '''
+                    sh '''
                         set "projectLocation=Test"
                         echo Project Location: %projectLocation%
                         pushd "%projectLocation%"
