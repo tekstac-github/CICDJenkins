@@ -7,7 +7,7 @@ pipeline {
                 script {
                     echo 'Running Selenium tests...'
                     sh '''#!/bin/bash
-                        def workspace = pwd()
+                        def workspace = WORKSPACE
                         projectLocation=${workspace}/Test
                         echo Project Location: $projectLocation
                         pushd "$projectLocation"
