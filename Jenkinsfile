@@ -7,7 +7,7 @@ pipeline {
                 script {
                     echo 'Running Selenium tests...'
                     sh '''#!/bin/bash
-                        workspace = env.WORKSPACE
+                        def workspace = env.WORKSPACE
                         projectLocation=${workspace}/Test
                         echo Project Location: $projectLocation
                         pushd "$projectLocation"
