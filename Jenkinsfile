@@ -7,7 +7,7 @@ pipeline {
                 script {
                     echo 'Running Selenium tests...'
                     sh '''#!/bin/bash
-                        set "projectLocation=/Test"
+                        projectLocation=/Test
                         echo Project Location: $projectLocation
                         pushd "$projectLocation"
                         echo Classpath: $projectLocation/bin;$projectLocation/lib/*
