@@ -14,7 +14,7 @@ pipeline {
                         ls -a
                         echo "Classpath: Test/bin:Test/lib/*"
                         classpath="Test/bin:Test/lib/*"
-                        java -cp $classpath org.testng.TestNG testng.xml
+                        java -cp $classpath org.testng.TestNG Test/testng.xml
                     '''
                     echo 'Selenium tests completed.'
                 }
