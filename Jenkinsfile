@@ -8,9 +8,10 @@ pipeline {
                     echo 'Running Selenium tests...'
                     sh '''#!/bin/bash
                         workspace=$WORKSPACE
-                        projectLocation=${workspace}/CICDJenkins
+                        projectLocation=${workspace}
                         echo "Project Location: $projectLocation"
                         cd "$projectLocation"
+                        ls -a
                         echo "Classpath: Test/bin:Test/lib/*"
                         classpath="Test/bin:Test/lib/*"
                         java -cp $classpath org.testng.TestNG testng.xml
