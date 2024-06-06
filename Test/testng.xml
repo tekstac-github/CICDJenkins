@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Suite" >
+<suite name="Suite">
   <test name="Test">
     <classes>
-    
-        <!-- Add the class name to be tested //test comments  -->
-        	 <class name="Login"/>
-     </classes>
+      <!-- Add the class name to be tested -->
+      <class name="Login"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
-	 	  	      	 	    	   	 	       	 	
-	 	  	      	 	    	   	 	       	 	
-	 	  	      	 	    	   	 	       	 	
-     
